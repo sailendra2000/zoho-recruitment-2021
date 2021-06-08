@@ -27,6 +27,12 @@ for i in range(lent):
     answer.pop()
     half+=1
     print("".join(answer[::-1]))
+    '''
+    another way
+    for i in answer[::-1]:
+        print(i,end='')
+    print()
+    '''
 #using slicing operator
 '''
 s=input().strip()  
